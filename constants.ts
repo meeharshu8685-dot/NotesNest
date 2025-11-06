@@ -1,3 +1,4 @@
+
 import { type Semester, type ResourceCategory } from './types';
 
 export const SEMESTERS: Semester[] = [
@@ -7,8 +8,8 @@ export const SEMESTERS: Semester[] = [
     color: 'bg-sky-100',
     subjects: [
       { id: 's1-cs101', name: 'Intro to Programming', description: 'Fundamentals of programming using Python.', term: 1, links: { weekNotes: 'https://drive.google.com/drive/folders/1nu5Yez3BseLuiYHcbfKBWzY-hpF1x5gR?usp=drive_link', fullNotes: 'https://drive.google.com/file/d/1rLTgU08_QOFqgYgICw_YEbK7bcYXVop3/view?usp=drive_link', books: 'https://drive.google.com/drive/folders/1TUvVs9PZcTHBMgbi0LVmu2q-3qwRma7j?usp=drive_link', more: 'https://drive.google.com/drive/folders/1CKKrkWzkHpv9Lq6aHeYZATpv1NVgCRuH?usp=drive_link' } },
-      { id: 's1-en101', name: 'Writing Practice', description: 'Developing fundamental writing skills for academic and professional contexts.', term: 1, links: { weekNotes: '#', fullNotes: '#', books: '#', more: '#' } },
-      { id: 's1-ma102', name: 'Discrete Mathematics', description: 'Introduction to logic, sets, functions, and graph theory.', term: 1, links: { weekNotes: '#', fullNotes: '#', books: '#', more: '#' } },
+      { id: 's1-en101', name: 'Writing Practice', description: 'Developing fundamental writing skills for academic and professional contexts.', term: 1, links: { weekNotes: 'https://drive.google.com/drive/folders/16Su0yhvPSgLPMwCDRiIl_TJUF0im5RPy?usp=drive_link', fullNotes: 'https://drive.google.com/drive/folders/1TDXA5aZSVAby-I-P78tBq6UBrhnzlqr1?usp=drive_link', books: 'https://drive.google.com/drive/folders/1jIpewNN2dQ8p4YXyzsBobRd0e2hNsgJU?usp=drive_link', more: 'https://drive.google.com/drive/folders/1rZd7Ii81neNP_52c7BZ60rE9yptaQ_kK?usp=drive_link' } },
+      { id: 's1-ma102', name: 'Discrete Mathematics', description: 'Introduction to logic, sets, functions, and graph theory.', term: 1, links: { weekNotes: 'https://drive.google.com/drive/folders/1yfr7d9pBic2o9FG2qlPJlC76V3L5ea0l?usp=drive_link', fullNotes: 'https://drive.google.com/drive/folders/1BwNYGsl6ebGJzICBQnkUPxnZWbnF_eNJ?usp=drive_link', books: 'https://drive.google.com/drive/folders/1kjkZ29e04lv11AF6KtEXru1rW8hr6StU?usp=drive_link', more: 'https://drive.google.com/drive/folders/1jpcdxZBiY5akgCdc7je32j8pSmYqvajp?usp=drive_link' } },
       { id: 's1-ee101', name: 'Basic Electronics', description: 'Introduction to electronic circuits and devices.', term: 2, links: { weekNotes: '#', fullNotes: '#', books: '#', more: '#' } },
       { id: 's1-cs102', name: 'Intro to Computing Systems', description: 'Understanding computer architecture and systems programming.', term: 2, links: { weekNotes: '#', fullNotes: '#', books: '#', more: '#' } },
       { id: 's1-ma103', name: 'Linear Algebra and its Applications', description: 'Study of vector spaces, matrices, and linear transformations.', term: 2, links: { weekNotes: '#', fullNotes: '#', books: '#', more: '#' } },
